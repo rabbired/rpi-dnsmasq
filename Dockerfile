@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine
+FROM hypriot/rpi-alpine as build
 
 # webproc release settings
 ENV WEBPROC_VERSION 0.2.2
